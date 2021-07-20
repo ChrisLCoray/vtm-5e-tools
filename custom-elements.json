@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "tags": [
+    {
+      "name": "vtm-5e-tools",
+      "description": "Unofficial Vampire the Masquerade 5e Tools including Character Builder and Dice Roller by Chris Coray (aka FuzzieChikun). Written in Google's Lit JS.",
+      "properties": [
+        {
+          "name": "Unofficial VtM 5e Tools",
+          "type": "String",
+          "description": "Unofficial Vampire the Masquerade 5e Tools including Character Builder and Dice Roller by Chris Coray (aka FuzzieChikun). Written in Google's Lit JS.",
+          "default": "Hey there"
+        },
+        {
+          "name": "page",
+          "type": "String",
+          "description": "Which page to show",
+          "default": "main"
+        }
+      ],
+      "events": [],
+      "slots": [],
+      "cssProperties": []
+    }
+  ]
+}

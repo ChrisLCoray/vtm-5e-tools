@@ -1,0 +1,7 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/ChrisLCoray/vtm-5e-tools.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
