@@ -6,7 +6,7 @@
 
 [![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
 
-<h5>About:</h5>
+## About:
 <p>The concept behind this code repo is to give Vampire the Masquerade (VtM) 5e players a set of tools to simplify their ability to play. It is a work in progress.</p>
 <p>I'll be hosting the application on my server once it is in a more useable state. I estimate the Character Creation tool is over 80% complete, there are a few items still TODO, as well as future upgrades planned.</p>
 <p>This started as a basic VtM dice roller (which will be included as a separate view for any who just want a digital die roller w/o importing or creating a character sheet), but I wanted users to have the ease of using their actual character stats for quick selection when rolling die. The die roller calculates successes, messy successes, and failures.</p>
@@ -24,7 +24,7 @@ You may not include information that would supplant the need for users to purcha
 
 ```{ id: PredatorIds.Farmer, description: "You only feed from animals", name: "Farmer", page: 177, source: SourceBookIds.Corebook }```
 
-This includes an internal data ID, a description I summarized from the 5e Sourcebook, the name which appears in a dropdown select during character creation, as well as which sourcebook ID the user can find it in and the page number which is converted into a user-friendly display, e.g. "5e Sourcebook page 177." I *did not* copy/paste the text directly from the book. Again, users will need the source material to fully utilize these tools.
+This includes an internal data ID, a description I summarized from the 5e Sourcebook, the name which appears in a dropdown select during character creation, as well as which sourcebook ID the user can find it in and the page number which is converted into a user-friendly display, e.g. "5e Sourcebook page 177." I *did not* copy/paste the full text description directly from the book. Again, users will need the source material to fully utilize these tools.
 
 ## Requirements
 
