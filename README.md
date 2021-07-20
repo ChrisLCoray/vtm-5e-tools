@@ -18,7 +18,7 @@
 - Storyteller view: Give Storytellers the ability to have Character information in front of them with a real-time view of stats (hunger, humanity, damage) and die rolls, hence the need for NodeJS.
 
 ## Licensing
-License is provided under Apache 2 license. Feel free to clone your own repository and edit as you see fit for personal use, but under the Dark Pack License Agreement provided by Paradox Interactive AB, you may not sell the application, use advertisements, or otherwise monetize beyond a link for users to donate to support development. Portions of the materials are the copyrights and trademarks of Paradox Interactive AB, and are used with permission. All rights reserved Paradox Interactive AB. For more information please visit worldofdarkness.com.
+License is provided under Apache 2 license. Feel free to clone your own repository and edit as you see fit for personal use, but under the Dark Pack License Agreement provided by Paradox Interactive AB, you may not sell the application, use advertisements, or otherwise monetize beyond a link for users to donate to support development. Portions of the materials are the copyrights and trademarks of Paradox Interactive AB, and are used with permission. All rights reserved Paradox Interactive AB. For more information please visit <a href="https://www.worldofdarkness.com/dark-pack" target="_blank">worldofdarkness.com</a>.
 
 You may not include information that would supplant the need for users to purchase official Vampire the Masquerade source materials. I have used basic descriptions / summaries for quick reference, with expanded reference back to source material. Example from the Predator types data object:
 
@@ -52,3 +52,9 @@ npm install
 For most of the tools, the configuration is in the `package.json` to reduce the amount of files in your project.
 
 If you customize the configuration a lot, you can consider moving them to individual files.
+
+## Dependency Reference
+- Lit - https://lit.dev/
+- Typescript - https://www.typescriptlang.org/
+- Open Web Components - https://open-wc.org/
+- ESLint - https://eslint.org/
