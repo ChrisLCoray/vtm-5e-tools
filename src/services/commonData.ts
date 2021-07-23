@@ -272,7 +272,7 @@ export const blankCharacter: Character = {
     history: "", notes: ""
 };
 
-export const blankChronicle: Chronicle = { id: 0, name: "No Chronicle Set" };
+export const blankChronicle: Chronicle = { id: -1, name: "" };
 export const blankClan: Clan = { id: -1, name: "No Clan Set", archetypes: [], bane: { name: "", page: -1 }, disciplines: [], page: -1, source: -1 };
 export const blankUser: User = { id: 0, name: "", characters: [], chronicles: [] };
 

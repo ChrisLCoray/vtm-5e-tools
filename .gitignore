@@ -24,3 +24,6 @@ coverage/
 /out-tsc/
 
 storybook-static
+
+# file types
+*.psd

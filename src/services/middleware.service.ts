@@ -9,6 +9,10 @@ import { blankCharacter, blankChronicle, blankUser, clans } from '../services/co
 
 const _chronicleList = await getAllChronicles();
 
+function mwError(cause: string, op: string) {
+    return { error: cause, operation: op, success: false }
+}
+
 export function createNewCharacter(characterList: Character[]): Character {
     const newCharacter = blankCharacter;
     newCharacter.id = characterList?.length > 0 ? characterList[characterList.length - 1].id += 1 : 1;
@@ -34,7 +38,9 @@ export async function getCharacterById(id: number): Promise<Character> {
 }
 
 export async function saveCharacterById(data: Character): Promise<boolean> {
-    console.log(`saveCharacterById data = `, data);
+    if (!data.name || data.name.length < 1) {
+        return false;
+    }
     const resp = await api.setCharacterById(data);
     return resp.success;
 }

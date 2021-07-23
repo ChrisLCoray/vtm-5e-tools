@@ -11,7 +11,8 @@ import './components/cs.rhh.component';
 import './components/cs.skills.component';
 import './components/cs.ttb.component';
 import './components/cs.xp.component';
-import { Character } from './project.interface';
+import * as mws from './services/middleware.service';
+import { Character, Chronicle } from './project.interface';
 import { whiteCard } from './directives/white-card.directive';
 import { blankCharacter } from './services/commonData';
 import appStyles from './styles/app-styles.css';
@@ -37,6 +38,22 @@ export class CharacterCreatorComponent extends LitElement {
         super();
         this.character = character;
         this.characterCreation = characterCreation;
+
+        // this.genChronicles();
+    }
+
+    // @TODO Temp set up data
+    static async genChronicles() {
+        const chronicleList: Chronicle[] = [
+            { id: 1, name: 'LA by Night', players: [1, 2, 3, 4], storyteller: 0 },
+            { id: 2, name: 'Chicago by Night', players: [2, 4, 6], storyteller: 1 },
+            { id: 3, name: 'Blood & Syrup', players: [1, 3, 5], storyteller: 0 },
+            { id: 4, name: 'Stitch of Fate', players: [7, 9, 11, 12], storyteller: 3 },
+            { id: 5, name: 'Exeter by Night', players: [101, 87, 22, 43], storyteller: 69 },
+            { id: 6, name: 'Shadows Over the South', players: [69, 35, 42, 78, 57], storyteller: 72 }
+        ];
+
+        await mws.saveAllChronicles(chronicleList);
     }
 
     // Methods

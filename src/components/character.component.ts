@@ -1,7 +1,6 @@
 import { LitElement, html, css } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { property } from 'lit-element';
-import * as storage from '../services/api.service';
 import './cs.attributes.component';
 import './cs.basics.component';
 import './cs.disciplines.component';

@@ -42,7 +42,7 @@ class FakeSelectDirective extends Directive {
 
     render(data: { id: number, name: string }[], title: string, key: string, actionCallback: Function) {
         return html`
-            <div class="fake-select" id="clan" @click=${this.toggleSelect}>
+            <div class="fake-select" id="fs-dd" @click=${this.toggleSelect}>
                 <div data-value="">
                     <span class="fs-title">${title}</span>
                     <span class="material-icons-outlined">expand_more</span>
