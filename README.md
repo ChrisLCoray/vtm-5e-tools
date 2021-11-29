@@ -6,6 +6,13 @@
 
 [![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
 
+## DEPRECATED:
+<p>As of Nov 18, 2021, World of Darkness and Paradox Interactive announced that they have been working on official tools that will cover the same topics I've attempted to address with this application, to be released in beta in Q1 2022. As such, my motivation to complete this application is very low.</p>
+
+<p>It's not a loss - I learned a lot about Google Lit and the VtM system. Such is the way of independent coding and modding. In the future, if the official WoD tools have a modding system or lack features that I can fill in, I'll look at updating this project then. I had begun the work on converting this to React as it better suited the full application needs better than Lit, in the long run (remember this started as a basic dice roller, which Lit was very suitable for).</p>
+
+<p>In the meantime, I'll also leave this up as a reference project. Thank you.</p>
+
 ## About:
 <p>The concept behind this code repo is to give Vampire the Masquerade (VtM) 5e players a set of tools to simplify their ability to play. It is a work in progress.</p>
 <p>I'll be hosting the application on my server once it is in a more useable state. I estimate the Character Creation tool is over 80% complete, there are a few items still TODO, as well as future upgrades planned.</p>
